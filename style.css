@@ -1,0 +1,53 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    color: rgb(10, 10, 10);
+}
+body{
+    background-color: rgba(185, 185, 7, 0.803);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.allcontent{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 500px;
+    background-color: #f1e7e7;
+    height: 300px;
+    max-width: 90%;
+    
+}
+.header,.counter,.inde{
+    height: 100px;
+    
+}
+.header{
+    font-size: 40px;
+    text-transform: capitalize;
+    padding-top: 20px;
+
+}.counter{
+    font-size: 50px;
+
+}
+.inde button{
+    font-size: 29px;
+    padding: 20px;
+    transition: all .5s;
+
+}
+.inde button:hover{
+    background-color: rgb(18, 20, 22);
+    color: #d7cbcb;
+    user-select: none;
+    cursor: pointer;
+    
+
+}
